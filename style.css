@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    z-index: 1000;
+}
+main{
+
+    margin-top: 130px;
+}
+#icon{
+    margin: 0 auto;
+}
+img{
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+    object-fit: cover;
+    aspect-ratio: 4/5;
+    overflow: hidden;
+}
+main p{
+    text-align: left;
+    display: inline-block;
+    align-items: flex-start;
+    margin-left: 5%;
+}
+#htitu{
+    width: 100%;
+    color: red;
+    text-align: center;
+    display: inline-block;
+    align-items: flex-start;
+}
+main h2{
+    color: red;
+}
+.conteiner{
+    width: 50%;
+    float: left;
+}
+.imgf{
+    width: 50%;
+    float: right;
+}
