@@ -10,13 +10,18 @@ header{
     width: 100%;
     display: flex;
     z-index: 1000;
+    header {
+    flex-direction: column;
+    align-items: center;
+}
 }
 main{
 
     margin-top: 130px;
 }
-#icon{
-    margin: 0 auto;
+#logo{
+    display: flex;
+    justify-content: center;
 }
 img{
     display: inline-block;
@@ -42,11 +47,36 @@ main p{
 main h2{
     color: red;
 }
+footer{
+    color: gray;
+}
 .conteiner{
+    display: flex;
+    justify-content: center;
     width: 50%;
     float: left;
 }
-.imgf{
+#imgf{
     width: 50%;
     float: right;
+}
+nav{
+    gap: 100px;
+    position: static;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+iframe{
+    margin: 0 auto;
+}
+.shorts{
+    display: inline-block;
+    width: 300px; 
+    height: 500px;
+}
+.vid{
+    display: block;
+    width: 500px;
+    height: 300px;
 }
